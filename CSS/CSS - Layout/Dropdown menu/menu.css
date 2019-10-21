@@ -1,0 +1,55 @@
+body {
+    background-color: #ddd;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu {
+    background-color: #ffbe00;
+    width: 270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+#menu > ul > li {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    padding-right: 10px;
+    text-align: center;
+
+}
+
+ul > li > ul {
+    position: absolute;
+    display: none;
+    
+}
+ul > #lista:hover {
+    background-color: white;
+}
+
+ul > li:hover > ul {
+    display: block;
+}
+
+
+
+
+
+ul > li > ul > li {
+    width: 100px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    text-decoration: none;
+    background-color: white;
+}
+
+ul > .aktivno:hover {
+    background-color: white;
+}
