@@ -1,48 +1,17 @@
-#list1 li {
-    display: inline-block;
-}
-
-div {
-    background-color: #ffbe00;
-    padding: 5px;
-  
-}
-body {
-    background-color: #f5f5f5;
-}
-#lista2 {
-    position: absolute;
-   
-}
-li {
-    position: relative;
+ul {
+    list list-style-type: none;
     padding: 0px;
-
-}
-#lista2 li {
-    width: 250%;
 }
 
-ul > li > ul {
+ul li {
+    display: inline;
+}
+
+.dropdown ul  {
+    
     display: none;
 }
 
-ul > li:hover > ul {
+.dropdown:hover ul {
     display: block;
-
-
-}
-
-
-
-ul > #menu2:hover {
-    background-color: #f6f6f6;
-    
-}
-ul {
-    list-style: none;
-}
-
-ul > li.acitive {
-    background-color: #f6f6f6;
 }
