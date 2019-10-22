@@ -10,17 +10,18 @@ ul {
 }
 #menu {
     background-color: #ffbe00;
-    width: 270px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 280px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 15px;
 }
 #menu > ul > li {
     display: inline-block;
     position: relative;
     width: 50px;
-    padding-right: 10px;
+    padding-right: 15px;
     text-align: center;
+    
 
 }
 
@@ -29,15 +30,12 @@ ul > li > ul {
     display: none;
     
 }
-ul > #lista:hover {
-    background-color: white;
-}
+
+
 
 ul > li:hover > ul {
     display: block;
 }
-
-
 
 
 
@@ -50,6 +48,6 @@ ul > li > ul > li {
     background-color: white;
 }
 
-ul > .aktivno:hover {
-    background-color: white;
+ul > li:hover {
+    background-color:#dddddd;
 }
