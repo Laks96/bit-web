@@ -35,7 +35,7 @@ body {
 
 #main-wrap{
     width: 100%;
-    max-width: 2000px;
+    max-width: 2500px;
     margin: auto;
    
 }
@@ -48,7 +48,6 @@ body {
 .cf:after {
     clear: both;
 }
-
 
 
 /*HEADER*/
@@ -110,6 +109,7 @@ font-size: 40px;
 #logo-container {
   
     float: left;
+    margin-left: 10px;
 }
 
 #logo-and-menu{
@@ -173,9 +173,302 @@ font-size: 40px;
 #underline {
     margin-left:auto;
     margin-right:auto;
-    width: 15%;
+    width: 270px;
 }
 
 #underline > div {
     float: left;
 }
+
+#section2 {
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 15px;
+}
+
+#section2 > div{
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+
+    
+}
+
+#section2 > div > ul{
+    padding: 0px;
+    list-style-type: none;
+    list-style-image: url('./img/arrow_bullet.png');
+    margin-left: 28px;
+    margin-top: 32px;
+    
+}
+
+#welcome {
+    margin-right: 30px;
+}
+
+#we-make {
+    margin-right: 30px;
+    margin-left:  40px;
+}
+
+#welcome > h4 {
+    font-family: "Roboto-Light";
+    font-size: 25px;
+    color: #53a2e0;
+}
+
+#we-make > h4 {
+    font-family: "Roboto-Light";
+    font-size: 25px;
+    color: #53a2e0;
+}
+
+#section2 > div > p {
+    font-family: "Roboto-Light";
+    font-weight: 700;
+    font-size: 17px;
+    width: 81%;
+    letter-spacing: 2px;
+    line-height: 2.0;
+    
+
+} 
+
+
+
+#section2 > div > ul > li {  
+    padding-bottom: 17px;
+    font-family: "Roboto-Light";
+   
+}
+
+/* SECTION 3 */
+
+
+#section3 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head3 {
+    font-family: "Roboto-Light";
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    text-align: center;
+}
+
+
+#wili {
+    float: left;
+}
+
+#wiliamsonid {
+    float: left;
+    margin-left: 35px;
+    margin-top: 8px;
+}
+
+
+#one {
+    background-color: #82c3f5;
+    width: 380px;
+}
+
+#wiliamson {
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: 18px;
+
+}
+
+#one > p {
+    font-size: 15px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#tofloat {
+    float: left;
+}
+
+#one {
+    float: left;
+    margin: 1.5%;
+}
+
+
+
+/*-------------------------------SECTION-3--------------------*/
+#section4 {
+    width: 100%;
+}
+
+#head4 {
+    font-family: "Roboto-Light";
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+    text-align: center;
+}
+
+#contact{
+    width: 25%;
+    text-align:center;
+    background-color: #3bdd9a;
+    padding-bottom: 47px;
+    padding-top: 29px;
+    color:white;
+    
+}
+
+#contact > h3 {
+    font-family: "Roboto-Light";
+    letter-spacing: 1px;
+}
+#contact > h6 {
+    font-size:10px;
+    font-family: "Roboto-Light";
+    letter-spacing: 1px;
+}
+
+#contact > h6 > span {
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+#connect {
+
+    width: 25%;
+    text-align:center;
+    background-color:#fd5282;
+    height: 230px;
+    color:white;
+
+}
+
+#icon > div {
+    float: left;
+}
+i {
+width: 20px; height: 20px; margin: 0 15px 5px 0; 
+}
+
+#connect > h3 {
+    margin-bottom: 45px;
+    margin-top: 50px;
+}
+#adress {
+    background-color: #376de4;
+    width: 25%;
+    height: 230px;
+    text-align: center;
+}
+
+#adress > h3 {
+    margin-bottom: 45px;
+    margin-top: 50px;
+    color: #fff;
+}
+#adress > p {
+    color: #fff;
+}
+
+#house {
+    background-color: #82c3f5;
+    width: 25%;
+    text-align: center;
+   
+}
+
+#house > img {
+    width: 226px;
+}
+
+iframe {
+    width: 100%;
+}
+
+
+/*-----------------------------------------SECION-5-----------------------*/
+
+#header5 {
+    font-family: "Roboto-Light";
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+    text-align: center;
+}
+form {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-top: 25px;
+
+}
+
+.input_name {
+    width: 30%;
+    margin-right: 27px;
+    margin-bottom: 20px;
+    height: 32px;
+    padding-left: 7px;
+  
+}
+.input_email {
+    width: 30%;
+    margin-right: 26px;
+    margin-bottom: 20px;
+    height: 32px;
+    padding-left: 7px;
+   
+}
+.input_phone {
+    width: 30%;
+    margin-bottom: 20px;
+    height: 32px;
+    padding-left: 7px;
+  
+}
+
+
+
+.input_message {
+    width: 99%;
+    height: 170px;
+    padding-left: 7px;
+    padding-top: 6px;
+}
+.form-button {
+    text-align: center;
+    font-size:10px;
+    background-color: #fd9727;
+    width: 120px;
+    height: 25px;
+    color: white;
+}
+
+.form-button {
+    transition-duration: 0.4s;
+  }
+  
+  .form-button:hover {
+    background-color: #fff;
+    color: black;
+
+  }
+
+
+
+
+
+
+
