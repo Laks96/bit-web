@@ -1,0 +1,29 @@
+.first {
+    background-color: blue;
+}
+   
+.second {
+    background-color: blueviolet;
+
+}
+.third {
+    background-color:yellow;
+   
+}
+.red1 {
+    height: 160px;
+    border: 2px solid black;
+}
+.red1 > div {
+    border: 1px solid black;
+    background-color: red;
+}
+
+.red {
+    height: 25px;
+}
+
+.red > div {
+    border: 1px solid black;
+    background-color: blue;
+}
