@@ -1,0 +1,21 @@
+#chat {
+    width: 40%;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+#input-message {
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+#input1 {
+    width: 39.5rem;
+}
+
+#send {
+    width: 11.5rem;
+}
