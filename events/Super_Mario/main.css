@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#background {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.marioStop {
+    background-image: url('./images/mario.png');
+    background-size: cover;
+    left: 17%;
+    top: 61%;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    position: absolute;
+}
+
+
+
+.marioRun {
+    background: url('./images/mario_running.gif');
+    background-size: cover;
+    left: 17%;
+    top: 61%;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    position: absolute;
+}
+
+
+
+
+
+
+
