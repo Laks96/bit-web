@@ -15,11 +15,11 @@ const ui = (function () {
 
             imgClickable.append(img);
 
-            div.append($(imgClickable));
+            div.append(imgClickable);
             div.append(span);
+            const mainWrap = $('.main-wrap')
             mainWrap.append(div);
         });
-
 
     }
 

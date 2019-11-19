@@ -3,22 +3,21 @@ const control = (function (ui, data) {
     $(function () {
         // Handler for .ready() called.
 
-        //pozivanje f-je iz ui sa nizom is data
-
-
+    //pozivanje f-je iz ui sa nizom is data
 
         function success(shows) {
-            ui.displayUsers(shows)
+            ui.display(shows)
 
         }
+        data.fetchShows(success);
 
+
+     
     });
 
 
 
 
-    return {
-        success
-    }
+  
 
 })(ui, data);
