@@ -26,3 +26,41 @@ h4{
     top:20px;
 
 }
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.style-div {
+
+    width: 33%;
+}
+
+
+.show-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.p-style-yu {
+    text-align: center;
+}
+
+
+.aParentOfP {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
